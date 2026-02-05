@@ -21,7 +21,7 @@ C_TEXT = "#E0E0E0"
 C_PANEL = "#121212"
 
 # --- 🔐 CONFIGURACIÓN GEMINI ---
-GEMINI_API_KEY = "AIzaSyBjZlDyniP4ZUr3NTBHF0Kpfv2y1g4sNrw" # <--- ¡PEGA TU API KEY AQUÍ!
+GEMINI_API_KEY = "" # <--- ¡PEGA TU API KEY AQUÍ!
 
 try:
     genai.configure(api_key=GEMINI_API_KEY)
