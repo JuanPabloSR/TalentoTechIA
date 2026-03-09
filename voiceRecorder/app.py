@@ -19,7 +19,7 @@ ctk.set_appearance_mode("Dark")
 ctk.set_default_color_theme("dark-blue")
 
 # --- 🔐 CONFIGURACIÓN GEMINI (Pega tu API KEY aquí) ---
-GEMINI_API_KEY = ""  # <--- ¡REEMPLAZA ESTO!
+GEMINI_API_KEY = "AIzaSyBjZlDyniP4ZUr3NTBHF0Kpfv2y1g4sNrw"  # <--- ¡REEMPLAZA ESTO!
 try:
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel('gemini-2.5-flash') # O 'gemini-1.5-flash' si quieres más velocidad

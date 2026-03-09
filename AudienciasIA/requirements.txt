@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+moviepy<2.0
+python-dotenv
+imageio-ffmpeg
